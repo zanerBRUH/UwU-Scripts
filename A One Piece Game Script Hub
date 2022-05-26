@@ -2026,7 +2026,7 @@ do -- Example UI
 	local Apen = FakeFriends:AddApen("Main GUI")
 
 	do -- Elements
-		Apen:AddLabel("Press Right Shift to hide gui")
+		Apen:AddLabel("~ Press Right Shift to hide gui ~")
 
 		Apen:AddButton("Lazy Hub (#1)", function()
 			loadstring(game:HttpGet("https://raw.githubusercontent.com/LioK251/Scripts/main/"..game.PlaceId..".lua"))()
@@ -2042,6 +2042,9 @@ do -- Example UI
 		
 		Apen:AddButton("X Hub", function()
 			loadstring(game:HttpGet("https://raw.githubusercontent.com/Bebo-Mods/BeboScripts/main/XHub.lua"))()
+		end)
+		Apen:AddButton("6 Foot Hub", function()
+			loadstring(game:HttpGet('https://www.6footscripts.com/Scripts/6FootHub/Hub.lua'))();
 		end)
 		
 
