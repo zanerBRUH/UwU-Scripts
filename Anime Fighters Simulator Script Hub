@@ -2019,7 +2019,7 @@ end
 do -- Example UI
 	local FakeFriends = library:AddFakeFriends("UwU Scripts - Anime Fighters Simulator", {
 		main_color = Color3.fromRGB(0, 0, 0),
-		min_size = Vector2.new(300, 170),
+		min_size = Vector2.new(300, 190),
 		toggle_key = Enum.KeyCode.RightShift,
 		can_resize = true,
 	})
