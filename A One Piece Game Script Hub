@@ -1,9 +1,3 @@
---[[
-	ui-engine-v2
-	version 1.3a
-	by Singularity (V3rm @ King Singularity) (Discord @ Singularity#5490)
---]]
-
 local ui_options = {
 	main_color = Color3.fromRGB(41, 74, 122),
 	min_size = Vector2.new(400, 300),
@@ -2023,16 +2017,16 @@ function library:AddFakeFriends(title, options)
 end
 
 do -- Example UI
-	local FakeFriends = library:AddFakeFriends("A One Piece Game", {
+	local FakeFriends = library:AddFakeFriends("UwU Scripts - A One Piece Game", {
 		main_color = Color3.fromRGB(0, 0, 0),
 		min_size = Vector2.new(300, 170),
 		toggle_key = Enum.KeyCode.RightShift,
 		can_resize = true,
 	})
-	local Apen = FakeFriends:AddApen("A One Piece Game")
+	local Apen = FakeFriends:AddApen("Main GUI")
 
 	do -- Elements
-		Apen:AddLabel("Thanks For Playing")
+		Apen:AddLabel("Press Right Shift to hide gui")
 
 		Apen:AddButton("Lazy Hub (#1)", function()
 			loadstring(game:HttpGet("https://raw.githubusercontent.com/LioK251/Scripts/main/"..game.PlaceId..".lua"))()
@@ -2040,8 +2034,6 @@ do -- Example UI
 		
 		Apen:AddButton("Uzu Hub", function()
 			loadstring(game:HttpGet("https://rawscripts.net/raw/loader_1038"))()
-
-
 		end)
 
 		
