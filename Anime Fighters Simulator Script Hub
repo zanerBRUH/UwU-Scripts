@@ -2044,7 +2044,7 @@ do -- Example UI
 			loadstring(game:HttpGet("https://raw.githubusercontent.com/Discord0000/Zer0Hub/main/MainScript.lua"))()
 		end)
 		
-		Apen:AddButton("Zero Hub", function()
+		Apen:AddButton("Assasine", function()
 			loadstring(game:HttpGet("https://www.assasine.com/Scripts/Anime_Fighters_Simulator.lua"))()
 		end)
 		
