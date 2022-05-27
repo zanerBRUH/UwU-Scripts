@@ -2019,7 +2019,7 @@ end
 do -- Example UI
 	local FakeFriends = library:AddFakeFriends("UwU Scripts - Anime Fighters Simulator", {
 		main_color = Color3.fromRGB(0, 0, 0),
-		min_size = Vector2.new(300, 240),
+		min_size = Vector2.new(300, 190),
 		toggle_key = Enum.KeyCode.RightShift,
 		can_resize = true,
 	})
@@ -2042,14 +2042,6 @@ do -- Example UI
     
    		Apen:AddButton("Zero Hub", function()
 			loadstring(game:HttpGet("https://raw.githubusercontent.com/Discord0000/Zer0Hub/main/MainScript.lua"))()
-		end)
-		
-		Apen:AddButton("Assasine", function()
-			loadstring(game:HttpGet("https://raw.githubusercontent.com/Shisobad/new/main/script.lua"))()
-		end)
-		
-		Apen:AddButton("DeadTired Scripts", function()
-			loadstring(game:HttpGet(("https://raw.githubusercontent.com/pspboy08/dollhouse/main/AFSGUI.lua")))()
 		end)
 
 		
