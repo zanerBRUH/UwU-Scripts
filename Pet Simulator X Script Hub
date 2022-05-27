@@ -2045,7 +2045,7 @@ do -- Example UI
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/BLACKGAMER1221/Pet-Simulator-X/main/BK%20Pet.lua"))()
 		end)
 		Tab:AddButton("Dex Hub", function()
-		loadstring(game:HttpGet("https://dexhub.xyz/loader.lua"))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/HonestlyDex/DexHub/main/Init"))()
 		end)
 		Tab:AddButton("PJM GUI", function()
 		loadstring(game:HttpGet("https://www.scriptblox.com/raw/Project-Meow_421"))()
