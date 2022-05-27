@@ -1,3 +1,9 @@
+--[[
+	ui-engine-v2
+	version 1.3a
+	by Singularity (V3rm @ King Singularity) (Discord @ Singularity#5490)
+--]]
+
 local ui_options = {
 	main_color = Color3.fromRGB(50, 20, 10),
 	min_size = Vector2.new(400, 300),
@@ -2017,7 +2023,7 @@ function library:AddWindow(title, options)
 end
 
 do -- Example UI
-	local Window = library:AddWindow("UwU - Pet Simulator X", {
+	local Window = library:AddWindow("UwU Scripts - Pet Simulator X", {
 		main_color = Color3.fromRGB(0, 0, 0),
 		min_size = Vector2.new(300, 320),
 		toggle_key = Enum.KeyCode.RightShift,
@@ -2027,9 +2033,8 @@ do -- Example UI
 	local Tab = Window:AddTab("Utility GUIs")
 
 	do -- Elements
-
-		Tab:AddLabel("Thanks For Using UwU Scripts!")
 		Tab:AddLabel("~ Press Right Shift To Hide GUI ~")
+		
 		Tab:AddButton("Crash Server GUI", function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/UltraStuff/scripts2/main/petsimxcrasher"))()
 		end)
@@ -2045,7 +2050,6 @@ end
 	local Tab = Window:AddTab("Side GUIs")
 
 	do -- Elements
-		Tab:AddLabel("Thanks For Using UwU Scripts!")
 		Tab:AddLabel("~ Press Right Shift To Hide GUI ~")
 
 		Tab:AddButton("VG Hub", function()
@@ -2066,7 +2070,6 @@ end
 		local Tab = Window:AddTab("Main GUIs")
 
 	do -- Elements
-		Tab:AddLabel("Thanks For Using UwU Scripts!")
 		Tab:AddLabel("~ Press Right Shift To Hide GUI ~")
 	
 	
