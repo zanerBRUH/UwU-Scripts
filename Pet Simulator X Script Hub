@@ -2024,43 +2024,6 @@ do -- Example UI
 		can_resize = true,
 	})
 
-	local Tab = Window:AddTab("Utility GUIs")
-
-	do -- Elements
-		Tab:AddLabel("~ Press Right Shift To Hide GUI ~")
-		
-		Tab:AddButton("Crash Server GUI", function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/UltraStuff/scripts2/main/petsimxcrasher"))()
-		end)
-		Tab:AddButton("Handy Bank GUI", function()
-		loadstring(game:HttpGet("https://shub.fun/script/Pet-Simulator-X-Withdraw-Or-Deposit-simpleHub=XowQn23rBzbV.lua"))()
-		end)
-		Tab:AddButton("Fast Mastery Farm", function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/UltraStuff/scripts2/main/petsimxp"))()
-		end)
-
-end
-
-	local Tab = Window:AddTab("Side GUIs")
-
-	do -- Elements
-		Tab:AddLabel("~ Press Right Shift To Hide GUI ~")
-
-		Tab:AddButton("VG Hub", function()
-		loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
-		end)
-		Tab:AddButton("Ghost Hub", function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/ScriptRUs/Ryans/main/Ghosthub.lua"))()
-		end)
-		Tab:AddButton("JXNT Hub", function()
-		loadstring(game:HttpGet("https://system-exodus.com/scripts/PetSimulator/PetSimulatorX.lua", true))()
-		end)
-		Tab:AddButton("Ow Menu", function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/inceldom/scrip/main/load",true))()
-		end)
-	
-end
-		
 		local Tab = Window:AddTab("Main GUIs")
 
 	do -- Elements
@@ -2094,6 +2057,44 @@ end
 		end)
 
 	end
+	
+
+	local Tab = Window:AddTab("Side GUIs")
+
+	do -- Elements
+		Tab:AddLabel("~ Press Right Shift To Hide GUI ~")
+
+		Tab:AddButton("VG Hub", function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+		end)
+		Tab:AddButton("Ghost Hub", function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/ScriptRUs/Ryans/main/Ghosthub.lua"))()
+		end)
+		Tab:AddButton("JXNT Hub", function()
+		loadstring(game:HttpGet("https://system-exodus.com/scripts/PetSimulator/PetSimulatorX.lua", true))()
+		end)
+		Tab:AddButton("Ow Menu", function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/inceldom/scrip/main/load",true))()
+		end)
+	
+end
+
+	local Tab = Window:AddTab("Utility GUIs")
+
+	do -- Elements
+		Tab:AddLabel("~ Press Right Shift To Hide GUI ~")
+		
+		Tab:AddButton("Crash Server GUI", function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/UltraStuff/scripts2/main/petsimxcrasher"))()
+		end)
+		Tab:AddButton("Handy Bank GUI", function()
+		loadstring(game:HttpGet("https://shub.fun/script/Pet-Simulator-X-Withdraw-Or-Deposit-simpleHub=XowQn23rBzbV.lua"))()
+		end)
+		Tab:AddButton("Fast Mastery Farm", function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/UltraStuff/scripts2/main/petsimxp"))()
+		end)
+
+end
 
 	Tab:Show()
 	library:FormatWindows()
