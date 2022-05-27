@@ -2019,7 +2019,7 @@ end
 do -- Example UI
 	local FakeFriends = library:AddFakeFriends("UwU Scripts - Anime Fighters Simulator", {
 		main_color = Color3.fromRGB(0, 0, 0),
-		min_size = Vector2.new(300, 240),
+		min_size = Vector2.new(300, 220),
 		toggle_key = Enum.KeyCode.RightShift,
 		can_resize = true,
 	})
@@ -2028,7 +2028,11 @@ do -- Example UI
 	do -- Elements
 		Apen:AddLabel("~ Press Right Shift to hide gui ~")
 
-		Apen:AddButton("Hyper Hub (#1)", function()
+		Apen:AddButton("#1 DeadTired Scripts", function()
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/pspboy08/dollhouse/main/AFSGUI.lua"))()
+		end)
+		
+		Apen:AddButton("Hyper Hub", function()
 			loadstring(game:HttpGet("https://raw.githubusercontent.com/DookDekDEE/AFS/main/script.lua"))()
 		end)
 		
@@ -2044,13 +2048,7 @@ do -- Example UI
 			loadstring(game:HttpGet("https://raw.githubusercontent.com/Discord0000/Zer0Hub/main/MainScript.lua"))()
 		end)
 		
-		Apen:AddButton("ShinsoBad", function()
-			loadstring(game:HttpGet("https://raw.githubusercontent.com/Shisobad/new/main/script.lua"))()
-		end)
 		
-		Apen:AddButton("DeadTired Scripts", function()
-			loadstring(game:HttpGet("https://raw.githubusercontent.com/pspboy08/dollhouse/main/AFSGUI.lua"))()
-		end)
 
 		
 
