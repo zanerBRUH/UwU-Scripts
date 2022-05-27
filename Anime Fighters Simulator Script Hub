@@ -2043,6 +2043,14 @@ do -- Example UI
    		Apen:AddButton("Zero Hub", function()
 			loadstring(game:HttpGet("https://raw.githubusercontent.com/Discord0000/Zer0Hub/main/MainScript.lua"))()
 		end)
+		
+		Apen:AddButton("Assaine", function()
+			loadstring(game:HttpGet(“https://www.assasine.com/Scripts/Anime_Fighters_Simulator.lua”, true))()
+		end)
+		
+		Apen:AddButton("pspboy", function()
+			loadstring(game:HttpGet((‘https://raw.githubusercontent.com/pspboy08/dollhouse/main/AFSGUI.lua’)))()
+		end)
 
 		
 
