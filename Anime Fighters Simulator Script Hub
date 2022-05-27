@@ -2045,10 +2045,10 @@ do -- Example UI
 		end)
 		
 		Apen:AddButton("Assasine", function()
-			loadstring(game:HttpGet("https://www.assasine.com/Scripts/Anime_Fighters_Simulator.lua"))()
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/Shisobad/new/main/script.lua"))()
 		end)
 		
-		Apen:AddButton("pspboy", function()
+		Apen:AddButton("DeadTired Scripts", function()
 			loadstring(game:HttpGet(("https://raw.githubusercontent.com/pspboy08/dollhouse/main/AFSGUI.lua")))()
 		end)
 
