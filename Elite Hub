@@ -1,0 +1,2 @@
+--Games: Pistol 1v1, No Scope Arcade, Criminality V4 and V3, Big Paintball, Arsenal
+loadstring(game:HttpGet('https://raw.githubusercontent.com/DOXSASHW/elite-/main/suh'))()
