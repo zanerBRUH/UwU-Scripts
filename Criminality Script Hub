@@ -2045,6 +2045,8 @@ do -- Example UI
 		end)
 		
 		
+	end
+	
 	local Tab = Window:AddTab("Side GUIs")
 
 	do -- Elements
@@ -2052,8 +2054,7 @@ do -- Example UI
 
 		Tab:AddButton("Elite Hub", function()
             loadstring(game:HttpGet('https://raw.githubusercontent.com/DOXSASHW/elite-/main/suh'))()
-	
-end
+        end)
 		
 
 
@@ -2062,4 +2063,4 @@ end
 
 	Tab:Show()
 	library:FormatWindows()
-end
+	end
