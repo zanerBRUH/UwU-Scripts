@@ -2031,17 +2031,11 @@ do -- Example UI
 		Tab:AddLabel("(WARNING) Use only one of these GUIs at once!")
 	
 		Tab:AddButton("Write Line (#1)", function()
-            local URL = "https://sitetest6.hookmetamethod1.repl.co/loadstring?file=v1"
             local Request = (syn and syn.request) or request
-
-            function LoadUrl(UrlLink)
-            pcall(function()
-            loadstring(Request({ Url = UrlLink }).Body)()
-         end)
-        end
-
-            LoadUrl(URL)
-		end)
+	    
+	    loadstring(Request({ Url = "https://cdn.typh.fun/loadstring/games/Criminality" }).Body)()
+	end)
+		
 		
 		Tab:AddButton("FemWare", function()
 			_G.FemKess = "FemWare On Top"
@@ -2050,14 +2044,14 @@ do -- Example UI
 
 		end)
 		
+		
 	local Tab = Window:AddTab("Side GUIs")
 
 	do -- Elements
 		Tab:AddLabel("~ Press Right Shift To Hide GUI ~")
 
 		Tab:AddButton("Elite Hub", function()
-            loadstring(game:HttpGet("loadstring(game:HttpGet('https://raw.githubusercontent.com/DOXSASHW/elite-/main/suh'))()", true))()
-		end)
+            loadstring(game:HttpGet('https://raw.githubusercontent.com/DOXSASHW/elite-/main/suh'))()
 	
 end
 		
