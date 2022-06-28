@@ -1,1 +1,1 @@
-https://raw.githubusercontent.com/zanerBRUH/UwU-Scripts-Multi-Hub/main/UwU%20Scripts%20Multi%20Hub
+loadstring(game:HttpGet("https://raw.githubusercontent.com/zanerBRUH/UwU-Scripts-Multi-Hub/main/UwU%20Scripts%20Multi%20Hub"))()
